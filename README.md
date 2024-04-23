@@ -1,10 +1,10 @@
 # BizCardX-Extracting-Business-Card-Data-with-OCR
-Objective: 
+## Objective: 
 The Project aims at developing a Streamlit application that allows users to upload an image of a business card and extract relevant information from it using easyOCR. The extracted information should include the company name, card holder name, designation, mobile number, email address, website URL, area, city, state and pin code. The extracted information should then be displayed in the application's graphical user interface (GUI).
 
 In addition, the application should allow users to save the extracted information intoa database along with the uploaded business card image. The d tabase should be able to store multiple entries, each with its own business card image and extracted information.
 
-Approach:
+## Approach:
 1. Install the required packages: You will need to install Python, Streamlit,
 easyOCR, and a database management system like SQLite or MySQL.
 
@@ -37,5 +37,5 @@ your Streamlit application file.
 features, optimizing the code, and fixing bugs. You can also add user
 authentication and authorization to make the application more secure.
 
-Results:
+## Results:
 The final application would have a simple and intuitive user interface that guides users through the process of uploading the business card image and extracting its information. The extracted information would be displayed in a clean and organized manner, and users would be able to easily add it to the database with the click of a button.
