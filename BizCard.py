@@ -137,10 +137,10 @@ elif select == "Upload":
       #SQL Connection
 
         mydb = mysql.connector.connect(
-            host = '127.0.0.1', 
-            user = 'root', 
-            password = 'tk09091996', 
-            database = 'bizcardv3' 
+            host = '', 
+            user = '', 
+            password = '', 
+            database = '' 
          )
         mycursor = mydb.cursor()
 
@@ -161,10 +161,10 @@ elif select == "View & Edit":
     
     elif selected_option == "View Data":
       mydb = mysql.connector.connect(
-      host = '127.0.0.1', 
-      user = 'root', 
-      password = 'tk09091996', 
-      database = 'bizcardv3' 
+      host = '', 
+      user = '', 
+      password = '', 
+      database = '' 
       )
       mycursor = mydb.cursor()
        
@@ -184,10 +184,10 @@ elif select == "View & Edit":
     elif selected_option == "Edit Data":
        
        mydb = mysql.connector.connect(
-       host = '127.0.0.1', 
-       user = 'root', 
-       password = 'tk09091996', 
-       database = 'bizcardv3' 
+       host = '', 
+       user = '', 
+       password = '', 
+       database = '' 
        )
        mycursor = mydb.cursor()
        
@@ -245,10 +245,10 @@ elif select == "View & Edit":
        if button_2:
          
         mydb = mysql.connector.connect(
-        host = '127.0.0.1', 
-        user = 'root', 
-        password = 'tk09091996', 
-        database = 'bizcardv3' 
+        host = '', 
+        user = '', 
+        password = '', 
+        database = '' 
         )
         mycursor = mydb.cursor()
 
@@ -264,10 +264,10 @@ elif select == "View & Edit":
 elif select == "Delete":
 
     mydb = mysql.connector.connect(
-    host = '127.0.0.1', 
-    user = 'root', 
-    password = 'tk09091996', 
-    database = 'bizcardv3' 
+    host = '', 
+    user = '', 
+    password = '', 
+    database = '' 
     )
     mycursor = mydb.cursor()
 
